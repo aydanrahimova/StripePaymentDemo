@@ -9,6 +9,9 @@ securely, and make payments either through **Stripe Checkout** or via **saved ca
 
 - Java 21
 - Spring Boot 3
+- Spring Data JPA
+- Mapstruct
+- Swagger
 - Stripe Java SDK
 - Lombok
 - Gradle
