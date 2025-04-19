@@ -1,4 +1,4 @@
-package com.example.stripepaymentdemo.dto;
+package com.example.stripepaymentdemo.dto.request;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
@@ -6,7 +6,6 @@ import lombok.experimental.FieldDefaults;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class ProductRequest {
     String productName;

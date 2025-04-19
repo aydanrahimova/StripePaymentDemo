@@ -1,4 +1,4 @@
-package com.example.stripepaymentdemo.dto;
+package com.example.stripepaymentdemo.dto.response;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;

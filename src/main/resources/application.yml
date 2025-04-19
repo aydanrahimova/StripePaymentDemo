@@ -1,5 +1,21 @@
 server:
   port: 8080
 stripe:
-  publishable-key: ${PUBLISHED_KEY}
   secret-key: ${SECRET_KEY}
+
+
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    database: postgresql
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/stripe_demo
+    password: 2810
