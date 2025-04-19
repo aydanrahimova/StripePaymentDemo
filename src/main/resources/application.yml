@@ -1,0 +1,5 @@
+server:
+  port: 8080
+stripe:
+  publishable-key: ${PUBLISHED_KEY}
+  secret-key: ${SECRET_KEY}
